@@ -1,0 +1,9 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block body %}
+    <h1>Hello</h1>
+    <p>  Welcome, I will begin from now on! </p>
+    <a href="{{ url_for('insert_account') }}">Insert</a>
+    <a href="{{ url_for('query_account') }}">Query</a>
+{% endblock %}
